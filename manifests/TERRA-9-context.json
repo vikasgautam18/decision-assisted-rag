@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "document": "TERRA-9",
+  "revision": "E",
+  "pdf_sha256": "afa045a0f8431eedbd9e8675d0012104c64ae4a3c8fd70c8ba24630d1ce64322",
+  "review_status": "source inspected; domain acceptance in phase 2",
+  "historical_pages": [13],
+  "sections": {"overview": [4], "powertrain": [5], "homologation": [6, 7],
+    "mounting": [8], "suppliers": [9], "warranty": [10], "thermal": [11],
+    "maintenance": [12], "history": [13]},
+  "table_continuations": {"TERRA-9-table-12": "TERRA-9-table-11"},
+  "provenance": "Original PDF page 7 explicitly continues Table 3.1 from page 6; page 13 is Appendix A superseded data. Table 8.2a is explicitly absent and must not be reconstructed."
+}

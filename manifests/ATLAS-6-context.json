@@ -1,0 +1,13 @@
+{
+  "schema_version": "1",
+  "document": "ATLAS-6",
+  "revision": "F",
+  "pdf_sha256": "6465dae1a52945125f590d577cc754edcdf6af32458f35667900809eb6e7027c",
+  "review_status": "source inspected; domain acceptance in phase 2",
+  "historical_pages": [13],
+  "sections": {"overview": [4], "powertrain": [5], "homologation": [6, 7],
+    "mounting": [8], "suppliers": [9], "warranty": [10], "thermal": [11],
+    "maintenance": [12], "history": [13]},
+  "table_continuations": {"ATLAS-6-table-11": "ATLAS-6-table-10"},
+  "provenance": "Original PDF page 7 explicitly continues Table 3.1 from page 6; page 13 is Appendix A superseded data. Header mapping is based on explicit text, not matching widths."
+}

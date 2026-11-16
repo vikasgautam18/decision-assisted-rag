@@ -1,0 +1,15 @@
+{
+  "schema_version": "1",
+  "document": "NOVA-3",
+  "revision": "D",
+  "pdf_sha256": "c1a07f189fb3e6fa0c1566d4c9a7f3847b38e883ef2ba17261aa1e7a6faf5d69",
+  "review_status": "source inspected; domain acceptance in phase 2",
+  "historical_pages": [13],
+  "sections": {"overview": [4], "powertrain": [5], "homologation": [6, 7],
+    "mounting": [8], "suppliers": [9], "warranty": [10], "thermal": [11],
+    "maintenance": [12], "history": [13]},
+  "table_continuations": {
+    "NOVA-3-table-11": "NOVA-3-table-10"
+  },
+  "provenance": "Original NOVA-3 PDF section-heading inventory inspected: Sections 1-8 occupy physical pages 4-12, with Section 3 on pages 6-7; Appendix A is page 13. Homologation continuation is explicit. No unrelated same-width tables have been joined."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "known_interrupted_trace_preserved_missing_metrics_unknown",
+  "observation_id": "85788bea67525361bad43217261e6689",
+  "trace_id": "fcebee05e86f48748cc7e801fe924cb0",
+  "incomplete_span_ids": [
+    "19df6c977199417cb8507ae1fc9d8a8e",
+    "60a3f27d33be41a3abce4488de2cef7f",
+    "70cc7db1403944208824dd4991bf74f5",
+    "a88789c6d39a413e952a30adb07f7205",
+    "d67c66ef77bb41e790a56f11b43ecc20",
+    "dd94348d5bb844b5887f7dd57d6ab431",
+    "edd6dd73b91244d8ac462886dee932fc"
+  ],
+  "expected_server_process_samples": 1008,
+  "observed_server_process_samples": 1007,
+  "unknown_server_process_samples": 1,
+  "missing_http_latency_cpu_rss_and_unreported_usage": null,
+  "raw_events_unchanged": true,
+  "attempt_retained_in_all_denominators": true,
+  "completed_child_spans_and_observed_calls_retained": true
+}

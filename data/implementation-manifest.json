@@ -1,0 +1,519 @@
+{
+  "schema_version": "1",
+  "status": "implementation_snapshot_not_frozen_evaluation",
+  "created_utc": "2026-11-12T18:23:04.507046+00:00",
+  "reference_repository": "vikasgautam18/semantic_rag",
+  "reference_commit": "3c7f847137db5d0b2d4680e527c39fa2173ccb10",
+  "documents": [
+    "ATLAS-6",
+    "NOVA-3",
+    "TERRA-9",
+    "VEGA-7",
+    "VOLTA-4",
+    "ZENITH-11"
+  ],
+  "index_name": "decision-rag-chunks-v1",
+  "artifacts": [
+    {
+      "schema_version": "1",
+      "path": "app/__init__.py",
+      "sha256": "da621c4475d44d514389dfd8d45fa9d5a6adc23aefbbcf8fdbad99ccab63432a"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/boundary.py",
+      "sha256": "1614ab80dcf7d8b51e710c3d97cd36edac86ccc585df01029b2910f1942161ae"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/experiment_boundary.py",
+      "sha256": "fe7602b08440482663654740eb2699bffd81a3466aa4720356c1cb4ea0d955e1"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/live.py",
+      "sha256": "c491b731e19783b2af2ac8401e9fe6086990978c1d534eea147e5f3c04511536"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/main.py",
+      "sha256": "3522de757e633f9e58fccfb8aae07d788f8b32950a4c72e80bb9ead41c93b348"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/provenance.py",
+      "sha256": "c3bdd063b6b073a977a41859adabcf325eadba9d0a195789d0f69d6b87c73426"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/resources.py",
+      "sha256": "06f1a2208248d90509d4e9540ef1ba7bbdb29d4722046675a7ca9684dcd22a1a"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/sessions.py",
+      "sha256": "f2c19b2d7a0986b40b47ec7bc98b1c07877cf1f7ecfbbd34a3553fc8a62ba24e"
+    },
+    {
+      "schema_version": "1",
+      "path": "app/static/index.html",
+      "sha256": "ac0f9d50b2b2fcb675af779ff8fd45980fb6e7e09ddf5778002ae5d6e5ca48db"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/__init__.py",
+      "sha256": "d532e0785b8f44b179c66ec01d94fef9bd16c7c57108329c933ac4615979a6ec"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/azure.py",
+      "sha256": "602c464a9ddd96528e3bc2749d7e036c6210285f80d0c88a32de5bf2ba7dae48"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/decision.py",
+      "sha256": "037c13c1f5c7041eaf5986ad9edc85f9dc2fdb8a21a1004f8621bd6c4c3b6784"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/interfaces.py",
+      "sha256": "89567da868f1f88e2c2e77302d4d55b57b07fc7a14dcb94f1f6e77ca855c231e"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/models.py",
+      "sha256": "415f20fad7603dfe02b1e9ec1c604963f33a1cb5055a59df35d7d897e5c6fc2a"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/ordinary_decisions.py",
+      "sha256": "b7d62cbdea7b473f3fe0fd27ae9c5fcd4886483e0093d5ce844c3668f3a5f025"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/rate.py",
+      "sha256": "0ecb7cc45775e050b2393a79401ab24af58c4c1ff55856c875b5b45d7acc9762"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/search.py",
+      "sha256": "27cfb956f846e7d3d39755e8123c4ffa06fbd880e9b6ea8c797b9782252b79b4"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/storage.py",
+      "sha256": "4ce40de9ef06b27e747cdd6d4f09614d4fc0feb2bb52e85551bf4ac4b7ce95dc"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/synthetic.py",
+      "sha256": "e6a2ac1869da5b058b15d5f1c0e2e4cca7574d71c53e77c4f252e8e6ddf9000c"
+    },
+    {
+      "schema_version": "1",
+      "path": "clients/telemetry.py",
+      "sha256": "4f834d48a2f37ef7b0bb841f32ebc39a624df86ab442c764f79e0d99872ebae0"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/__init__.py",
+      "sha256": "70c146ad0ac1c92223a9d7c02a2e267be86db92ead647e73114381457d4165ef"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/analyze.py",
+      "sha256": "588a9897c4ff3a963dacc920e6e1e18698c797fb7ef05d33094bc4639d36eea2"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/checkpoint.py",
+      "sha256": "29ce7b0854518ad956fe872ae458c3a6d641c3769f0fb8925b60c990e96f27dc"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/context.py",
+      "sha256": "e40937c642001adbf6ca1fc9a8a5ed5e5b3eb000a29bbfd7b9a22cf8c682db7f"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/corpus.py",
+      "sha256": "c474b42ea42c9e4b7fd7d18bc02f69afe34f3a9a522220161ff6c147cc33b8b8"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/full.py",
+      "sha256": "da7efef01fe158f26c49c2dd497da46e6e6cbfece79c9aaa08c142a979cf980a"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/layout.py",
+      "sha256": "089ca3d912206bd482d270e5f010adb944675ec32c470e1cf53162f6e1aa326e"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/normalize.py",
+      "sha256": "12115b24a5d3fbd21aea763954841dc847a8f315ff9c8dd037d77941253af3a2"
+    },
+    {
+      "schema_version": "1",
+      "path": "ingestion/pilot.py",
+      "sha256": "2274370a63baca32c8970e6dad2223c9d3c894761164e57fae9e7dd3894ed9af"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/__init__.py",
+      "sha256": "060c8738ae9f52e4f5c972dcced68635bde6c72688a987773352d5d3739c58e8"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/arms.py",
+      "sha256": "06fa523e079eeb22e817e4cf5b720b004e472ce057463b72fb76fa8b19efd90f"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/budget.py",
+      "sha256": "8f278584afc0db8d55165cf9aec482d664856d3a0b1e684e09d57f2e0ae0e30a"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/calculations.py",
+      "sha256": "9dcd1b48c7805d25d0a3fda47f2fcefd657df06ad52e4690c76528dd64bcfcf8"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/contracts.py",
+      "sha256": "08e322f3b582a3c682433aa4e2101084af69ff23960269f8bd59167e44258703"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/control.py",
+      "sha256": "4d0582fdae200255b6550764256625ea0f22d6fd7a099a683dc261086798eb3b"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/evidence.py",
+      "sha256": "d6d1ba470bf9e336b121989a007104ec94e22b7d77bd206e2fd6303640f36e5f"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/live.py",
+      "sha256": "b21586c6ddb2ba2efe56595014528407c72ac8a156c9ec460833a208b78ac3b1"
+    },
+    {
+      "schema_version": "1",
+      "path": "pipelines/planning.py",
+      "sha256": "802171c75b79b4b1fef49f34dc70388f0d25d7bc12c0527613d6cf3975929276"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/azure-resources.json",
+      "sha256": "1d64f19b9ac122b065be0c71c76a67b1368df31c0a12438d3267d48c675ef67f"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/manifest.json",
+      "sha256": "242df3c00c3848ccdee6f55bcd7d2abba12b219bfc81637df93520ab53d055c1"
+    },
+    {
+      "schema_version": "1",
+      "path": "pyproject.toml",
+      "sha256": "4bcfe100382abf9d910d113aef78ff760d10d9946f9659783685e4d47b54aae8"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/docs/ATLAS-6_Technical_Dossier.pdf",
+      "sha256": "6465dae1a52945125f590d577cc754edcdf6af32458f35667900809eb6e7027c"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/ATLAS-6.analysis.json",
+      "sha256": "ff2eb6894a2ab37ed727e8b7a35a26b4c36f78b0043dee9c7cc8f82827c00fb6"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/ATLAS-6.layout.json",
+      "sha256": "44ad74ab99dbe297d99545edd9bb40a37c29948a4d42c325e2efe1ba9b5be6eb"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/ATLAS-6-context.json",
+      "sha256": "0c8b34a1b6c6de41fb26d1d02a99fde92056e3b55c3429f98bc1c707c3a766c3"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ATLAS-6/chunks.json",
+      "sha256": "d96a6ca9afe18a4c3c7a22f8e6f476ef3af017846e6e780aa109071169e7beeb"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ATLAS-6/ATLAS-6-figure-1.description.json",
+      "sha256": "ed9e8bcc839e4689720b049bc4f278dba184ee69e1f641f2162a17a67b032dbb"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ATLAS-6/ATLAS-6-figure-2.description.json",
+      "sha256": "85e4fbc4bcb23eac984ebba767db40abf14c73610c8684e183c3f2980bb0c57c"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ATLAS-6/images/ATLAS-6-figure-1.png",
+      "sha256": "9eaf3a422832afca140745c51d7cf961bd2269b9627016510f4c8e47a786c709"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ATLAS-6/images/ATLAS-6-figure-2.png",
+      "sha256": "94d30c8dab3f6fde2f29e17c9f057b4e28a48b0ce6a66b80d35847ed1e07aa1d"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/docs/NOVA-3_Technical_Dossier.pdf",
+      "sha256": "c1a07f189fb3e6fa0c1566d4c9a7f3847b38e883ef2ba17261aa1e7a6faf5d69"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/NOVA-3.analysis.json",
+      "sha256": "06ad26fb443754172de86425d8312672ca17db4e99ede0c641383be9c1385872"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/NOVA-3.layout.json",
+      "sha256": "43149452a4990f6b0f5eca2c4c3a0b6ab7265823215808ef34a1a29d5ae7844a"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/NOVA-3-context.json",
+      "sha256": "7f6742f3fb6306c22c53309074d2319175cf15e8a08f3acc773c7cc63444a3df"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/pilot/chunks.json",
+      "sha256": "5794349c0ece12dd90115e4841bc7ac3b2ec4c6751d652de9da7819385943322"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/pilot/NOVA-3-figure-1.description.json",
+      "sha256": "3b191b3c7cb24fedb48698997043ba499f57d6a0dcb07f68eb31fdbe2f73c346"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/pilot/NOVA-3-figure-2.description.json",
+      "sha256": "339b318e11b847856b3dcbf947ee0431b921bbb15f2fbdf1c2b680495158bb07"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/pilot/images/NOVA-3-figure-1.png",
+      "sha256": "ef781c1d98aa8a02f92d8107be19a76d07c6ff90a3c761ac2f6ab863da0ed25f"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/pilot/images/NOVA-3-figure-2.png",
+      "sha256": "a0cdac7497646aae9ae1cdf28f0556691e92cba334b9285d00c94dfc8e6217e4"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/docs/TERRA-9_Technical_Dossier.pdf",
+      "sha256": "afa045a0f8431eedbd9e8675d0012104c64ae4a3c8fd70c8ba24630d1ce64322"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/TERRA-9.analysis.json",
+      "sha256": "6dc99dec9f41dc53e67ab743608b4fac7c2374b32315f1f745c1a91a8fd383fb"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/TERRA-9.layout.json",
+      "sha256": "dde4136679e363a5fe5935b2679e7b345dfae2c09c3ccf03ecc12e4cf8bae970"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/TERRA-9-context.json",
+      "sha256": "59ffa2d185d439d4a6f38e585be5668cbef75b5613ff71896592c427e72675e8"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/TERRA-9/chunks.json",
+      "sha256": "fa3f725023d1ea8b5d8f3503d99d71c87986581f696565bdf802255c6fe426f9"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/TERRA-9/TERRA-9-figure-1.description.json",
+      "sha256": "cb10554f8bc048818bf431ab89c41aed3e376621ab5b0a9f7c5bce7828f0cf9e"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/TERRA-9/TERRA-9-figure-2.description.json",
+      "sha256": "6da27449eb31e4a1335aa19d3d553ded3e8dd4997312860177ab62cb3b9f40b3"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/TERRA-9/images/TERRA-9-figure-1.png",
+      "sha256": "1c576906b4ae215d1236d234d01666a297ed5f1931f5dab1346355d5d666612c"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/TERRA-9/images/TERRA-9-figure-2.png",
+      "sha256": "7a13756d2ceea7da5531cc77fa4088e5a9cff4aa3dbef578c311dba0ae0152f8"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/docs/VEGA-7_Technical_Dossier.pdf",
+      "sha256": "f6ca9379e3ebada3d8e891fb6d026a261e796229442eb54cd74f9d931ab7e7b0"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/VEGA-7.analysis.json",
+      "sha256": "83061e9c2b2006d91f7f871630d4a201d88b0831781e6dc9a6fbf702fe81cc77"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/VEGA-7.layout.json",
+      "sha256": "b6e8785d5ccd98588da4676b9254f3e0ea376637a8fac8da79979f7155124648"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/VEGA-7-context.json",
+      "sha256": "224cacb5f73df764662c69ff71f0c710cb9678e85e5ae08a8b189562ca3619ca"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VEGA-7/chunks.json",
+      "sha256": "e3d31d63bf0898157c162fa0df0f226f5e9ac54b61171076123df6dcf130265d"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VEGA-7/VEGA-7-figure-1.description.json",
+      "sha256": "6899e540838302804aa5b31d2efd1b4e3796ecaaa750033afae4340c1e6aad1e"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VEGA-7/VEGA-7-figure-2.description.json",
+      "sha256": "d33db92053e2651ca0b0d5cad9ef682395c1366c7cb8ff34f1b38b3d9333e419"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VEGA-7/images/VEGA-7-figure-1.png",
+      "sha256": "b0ab08480e9be8b7da109fbe5b689b71c83c62d271dda7e805a3f6425be3e867"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VEGA-7/images/VEGA-7-figure-2.png",
+      "sha256": "d06ad16c030ad7ab99bad2a70b52f9590e07448eee8e3a21c7bdcb1db9e85610"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/docs/VOLTA-4_Technical_Dossier.pdf",
+      "sha256": "cfd2601270dd403c4be05b78f12bcf08122d19b02cd54bcacf873bb0e2ecf842"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/VOLTA-4.analysis.json",
+      "sha256": "2c3765697f350052e88e8ad54f7ef3130fa2e941c0615ef1921f3445c060a590"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/VOLTA-4.layout.json",
+      "sha256": "94ddfa593d16f153f35a46f6fc057ec754c2fec85ea9732647f13cb43dec982b"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/VOLTA-4-context.json",
+      "sha256": "3ccffeb9ef8ff9a0cd08b2422110bed7c8015e6b8b44ac4327b4156d9312f6ae"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VOLTA-4/chunks.json",
+      "sha256": "a3b3c2844737955a320c286b3efeada1e3751c209e960204241e92bd4eabfa76"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VOLTA-4/VOLTA-4-figure-1.description.json",
+      "sha256": "574f8d53afe4e4338817c31070bc1ca1567a63b11ebeb536787127ea3274b946"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VOLTA-4/VOLTA-4-figure-2.description.json",
+      "sha256": "0ccd3f34077d046dfb7205976d738532b92338dd52869a3827ba9d4d2c6657e1"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VOLTA-4/images/VOLTA-4-figure-1.png",
+      "sha256": "2091eae25d6793d85a878d607fe299a5644aee1dd3be10d3d8db739b57b72d1a"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/VOLTA-4/images/VOLTA-4-figure-2.png",
+      "sha256": "e88010313f31c48f8fa17c8631efee0b7d2bbb94faff1bcb27f31beadc9a1fd9"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/corpus/docs/ZENITH-11_Technical_Dossier.pdf",
+      "sha256": "a2795d8a30910f42c4b26ab0f5be9e9b28872da7cf92e91c46fe294e89634c5f"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/ZENITH-11.analysis.json",
+      "sha256": "6b2f1aafc3ebf2da9ed3b82993bcda09570518c43829aefa3a3cffc91f85aa21"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/live-checkpoint/ZENITH-11.layout.json",
+      "sha256": "3dfe58c0c78d95eb231e6fbe27ae45f5a28e16033600272105ea123174ecd4d9"
+    },
+    {
+      "schema_version": "1",
+      "path": "manifests/ZENITH-11-context.json",
+      "sha256": "34d06add0cc9770f8416aaf59e0bfa0a4bba7fbfae79291734338dc8c413e33e"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ZENITH-11/chunks.json",
+      "sha256": "c023e84d4c1592f4bab32689f4d07cc58a5ccf7f441f6e716531efdc54da8740"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ZENITH-11/ZENITH-11-figure-1.description.json",
+      "sha256": "192b1746f043236d163dde0e08cf59c955362ea4936dde415fcd505206e116a8"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ZENITH-11/ZENITH-11-figure-2.description.json",
+      "sha256": "c2e13a4c6d4dafce481845a38374ae20413806d54d9e639b25139bb61fdfc849"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ZENITH-11/images/ZENITH-11-figure-1.png",
+      "sha256": "2c13579ffaa91c5956d968877ca72267e95ef1cb29d5964362501a3ebac84847"
+    },
+    {
+      "schema_version": "1",
+      "path": "data/dossiers/ZENITH-11/images/ZENITH-11-figure-2.png",
+      "sha256": "3c0f9907a30cb29e9adc7a83691c0adcd0d5f01e96b123894e13a599fca6aa96"
+    }
+  ],
+  "deployments": {
+    "writer": "gpt-5.6-sol;2026-07-09;westus3;GlobalStandard",
+    "embedding": "text-embedding-3-large;1;3072;westus3;Standard",
+    "decision": "decision1-deployment;Microsoft-Decision-1;1;westus3;GlobalStandard",
+    "layout": "prebuilt-layout;2024-11-30;westus2",
+    "search_api": "2025-09-01;westus2"
+  },
+  "policies": {
+    "deadline": "180 seconds shared; no inference retries",
+    "limits": "20 semantic decisions (ordinary-model backend in G) and 5 aggregate embedding/writer calls per request; 1 expansion; 3 repairs",
+    "approved_cumulative_caps": "DI6; Decision-1 4800; aggregate embedding/vision/writer 1200; independent grader 600",
+    "admission": "per-deployment 65s rolling window; 80% observed token quota; max(o200k tokens, characters/3) + output reservation +256; 429 cooldown respects Retry-After, no automatic inference retries; single-process only; not a shared-account throughput guarantee",
+    "verification": "supported probability >=0.8 if supplied; provisional, uncalibrated",
+    "visual_evidence": "versioned cached descriptions; original crops delivered",
+    "calculations": "named operations; exact quote or original-line-address provenance; no coordinate metadata operands; transitive typed intermediate references; explicit f_to_c only; half_even default, explicit half_up allowed",
+    "retention": "conversations 30min; default private traces 7 days; explicit experiment traces retained for review"
+  },
+  "usage_and_cost": "Provider usage when reported; failed reservations retained; unknown usage is not zero. Experiment model/API estimates require a frozen exact-meter rate card and explicit cost scope; Search/Defender exclusions are not zero charges. This implementation snapshot alone does not authorize or finalize evaluation.",
+  "packages": {
+    "azure-identity": "1.27.0",
+    "fastapi": "0.162.0",
+    "httpx": "0.28.1",
+    "pydantic": "2.14.2",
+    "uvicorn": "0.54.0",
+    "tiktoken": "0.14.0"
+  }
+}

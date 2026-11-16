@@ -1,0 +1,45 @@
+{
+  "schema_version": "1",
+  "status": "source_inventory_only",
+  "repository": "vikasgautam18/semantic_rag",
+  "commit": "3c7f847137db5d0b2d4680e527c39fa2173ccb10",
+  "artifacts": [
+    {
+      "path": "docs/ATLAS-6_Technical_Dossier.pdf",
+      "git_blob_sha": "1a1d68144aebd2e4ffd9236f72dea5b84f999cae",
+      "sha256": "6465dae1a52945125f590d577cc754edcdf6af32458f35667900809eb6e7027c"
+    },
+    {
+      "path": "docs/NOVA-3_Technical_Dossier.pdf",
+      "git_blob_sha": "64910d160acfc803d114b018a9380b952d3b385e",
+      "sha256": "c1a07f189fb3e6fa0c1566d4c9a7f3847b38e883ef2ba17261aa1e7a6faf5d69"
+    },
+    {
+      "path": "docs/TERRA-9_Technical_Dossier.pdf",
+      "git_blob_sha": "5f485e0c568c877e87a6e3ab88cdbcaba097b7ad",
+      "sha256": "afa045a0f8431eedbd9e8675d0012104c64ae4a3c8fd70c8ba24630d1ce64322"
+    },
+    {
+      "path": "docs/VEGA-7_Technical_Dossier.pdf",
+      "git_blob_sha": "be0b3854db6aae64da56420561b905fc4d5c5c25",
+      "sha256": "f6ca9379e3ebada3d8e891fb6d026a261e796229442eb54cd74f9d931ab7e7b0"
+    },
+    {
+      "path": "docs/VOLTA-4_Technical_Dossier.pdf",
+      "git_blob_sha": "b133a8b67321d3806e5f7a7016e569595fe2c94c",
+      "sha256": "cfd2601270dd403c4be05b78f12bcf08122d19b02cd54bcacf873bb0e2ecf842"
+    },
+    {
+      "path": "docs/ZENITH-11_Technical_Dossier.pdf",
+      "git_blob_sha": "3234704f282777538675a9691246d443ece6cd2e",
+      "sha256": "a2795d8a30910f42c4b26ab0f5be9e9b28872da7cf92e91c46fe294e89634c5f"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "aabb4c9d7691196fc92851db5285aed0d5810725",
+      "sha256": "07c47011b915282122a5562c0b7935a94039788bda33d199be871821d7f30bfe"
+    }
+  ],
+  "analysis_performed": false,
+  "index_created": false
+}

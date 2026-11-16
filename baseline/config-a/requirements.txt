@@ -1,0 +1,13 @@
+azure-ai-projects>=2.6
+azure-identity>=1.25
+fastapi>=0.143
+uvicorn>=0.54
+requests>=2.32
+pydantic>=2.9
+openai>=1.50
+openpyxl>=3.1
+python-dotenv>=1.0
+# offline tests and the Excel eval suite
+pytest>=8
+pandas>=2.2
+pillow>=10

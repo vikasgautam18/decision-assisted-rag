@@ -1,0 +1,370 @@
+{
+  "arms": {
+    "A": {
+      "n": 144,
+      "completed": 138,
+      "j1_ungraded": 2,
+      "j1_pass": 102,
+      "j1_rate": 70.8,
+      "j1_ci95": [
+        62.9,
+        77.6
+      ],
+      "j1_pass1": 50,
+      "j1_pass2": 52,
+      "j2_ungraded": 0,
+      "j2_pass": 105,
+      "j2_rate": 72.9,
+      "j2_ci95": [
+        65.1,
+        79.5
+      ],
+      "j2_pass1": 51,
+      "j2_pass2": 54,
+      "agree": "131/142",
+      "agree_pct": 92.3,
+      "kappa": 0.807,
+      "both_pass": 97,
+      "only_j1": 5,
+      "only_j2": 6
+    },
+    "B": {
+      "n": 144,
+      "completed": 142,
+      "j1_ungraded": 0,
+      "j1_pass": 126,
+      "j1_rate": 87.5,
+      "j1_ci95": [
+        81.1,
+        91.9
+      ],
+      "j1_pass1": 62,
+      "j1_pass2": 64,
+      "j2_ungraded": 0,
+      "j2_pass": 123,
+      "j2_rate": 85.4,
+      "j2_ci95": [
+        78.7,
+        90.3
+      ],
+      "j2_pass1": 62,
+      "j2_pass2": 61,
+      "agree": "137/144",
+      "agree_pct": 95.1,
+      "kappa": 0.793,
+      "both_pass": 121,
+      "only_j1": 5,
+      "only_j2": 2
+    },
+    "C": {
+      "n": 144,
+      "completed": 143,
+      "j1_ungraded": 0,
+      "j1_pass": 130,
+      "j1_rate": 90.3,
+      "j1_ci95": [
+        84.3,
+        94.1
+      ],
+      "j1_pass1": 65,
+      "j1_pass2": 65,
+      "j2_ungraded": 0,
+      "j2_pass": 126,
+      "j2_rate": 87.5,
+      "j2_ci95": [
+        81.1,
+        91.9
+      ],
+      "j2_pass1": 62,
+      "j2_pass2": 64,
+      "agree": "138/144",
+      "agree_pct": 95.8,
+      "kappa": 0.789,
+      "both_pass": 125,
+      "only_j1": 5,
+      "only_j2": 1
+    },
+    "D": {
+      "n": 144,
+      "completed": 144,
+      "j1_ungraded": 1,
+      "j1_pass": 120,
+      "j1_rate": 83.3,
+      "j1_ci95": [
+        76.4,
+        88.5
+      ],
+      "j1_pass1": 60,
+      "j1_pass2": 60,
+      "j2_ungraded": 0,
+      "j2_pass": 123,
+      "j2_rate": 85.4,
+      "j2_ci95": [
+        78.7,
+        90.3
+      ],
+      "j2_pass1": 62,
+      "j2_pass2": 61,
+      "agree": "137/143",
+      "agree_pct": 95.8,
+      "kappa": 0.839,
+      "both_pass": 118,
+      "only_j1": 2,
+      "only_j2": 4
+    },
+    "E": {
+      "n": 144,
+      "completed": 144,
+      "j1_ungraded": 0,
+      "j1_pass": 129,
+      "j1_rate": 89.6,
+      "j1_ci95": [
+        83.5,
+        93.6
+      ],
+      "j1_pass1": 64,
+      "j1_pass2": 65,
+      "j2_ungraded": 0,
+      "j2_pass": 129,
+      "j2_rate": 89.6,
+      "j2_ci95": [
+        83.5,
+        93.6
+      ],
+      "j2_pass1": 65,
+      "j2_pass2": 64,
+      "agree": "140/144",
+      "agree_pct": 97.2,
+      "kappa": 0.851,
+      "both_pass": 127,
+      "only_j1": 2,
+      "only_j2": 2
+    },
+    "F": {
+      "n": 144,
+      "completed": 144,
+      "j1_ungraded": 0,
+      "j1_pass": 138,
+      "j1_rate": 95.8,
+      "j1_ci95": [
+        91.2,
+        98.1
+      ],
+      "j1_pass1": 70,
+      "j1_pass2": 68,
+      "j2_ungraded": 0,
+      "j2_pass": 136,
+      "j2_rate": 94.4,
+      "j2_ci95": [
+        89.4,
+        97.2
+      ],
+      "j2_pass1": 71,
+      "j2_pass2": 65,
+      "agree": "138/144",
+      "agree_pct": 95.8,
+      "kappa": 0.55,
+      "both_pass": 134,
+      "only_j1": 4,
+      "only_j2": 2
+    },
+    "G": {
+      "n": 144,
+      "completed": 144,
+      "j1_ungraded": 0,
+      "j1_pass": 133,
+      "j1_rate": 92.4,
+      "j1_ci95": [
+        86.8,
+        95.7
+      ],
+      "j1_pass1": 66,
+      "j1_pass2": 67,
+      "j2_ungraded": 0,
+      "j2_pass": 137,
+      "j2_rate": 95.1,
+      "j2_ci95": [
+        90.3,
+        97.6
+      ],
+      "j2_pass1": 69,
+      "j2_pass2": 68,
+      "agree": "136/144",
+      "agree_pct": 94.4,
+      "kappa": 0.527,
+      "both_pass": 131,
+      "only_j1": 2,
+      "only_j2": 6
+    }
+  },
+  "paired": {
+    "j1:F-A": {
+      "diff_points": 25.0,
+      "ci95_points": [
+        16.0,
+        34.0
+      ]
+    },
+    "j1:F-B": {
+      "diff_points": 8.3,
+      "ci95_points": [
+        0.7,
+        16.7
+      ]
+    },
+    "j1:F-C": {
+      "diff_points": 5.6,
+      "ci95_points": [
+        -0.7,
+        12.5
+      ]
+    },
+    "j1:F-D": {
+      "diff_points": 12.5,
+      "ci95_points": [
+        5.6,
+        21.5
+      ]
+    },
+    "j1:F-E": {
+      "diff_points": 6.2,
+      "ci95_points": [
+        0.7,
+        13.2
+      ]
+    },
+    "j1:F-G": {
+      "diff_points": 3.5,
+      "ci95_points": [
+        -1.4,
+        9.0
+      ]
+    },
+    "j1:C-A": {
+      "diff_points": 19.4,
+      "ci95_points": [
+        8.3,
+        30.6
+      ]
+    },
+    "j1:B-A": {
+      "diff_points": 16.7,
+      "ci95_points": [
+        6.2,
+        27.8
+      ]
+    },
+    "j1:C-B": {
+      "diff_points": 2.8,
+      "ci95_points": [
+        -0.7,
+        6.9
+      ]
+    },
+    "j1:D-B": {
+      "diff_points": -4.2,
+      "ci95_points": [
+        -11.1,
+        2.1
+      ]
+    },
+    "j1:E-B": {
+      "diff_points": 2.1,
+      "ci95_points": [
+        -2.8,
+        6.9
+      ]
+    },
+    "j1:G-A": {
+      "diff_points": 21.5,
+      "ci95_points": [
+        12.5,
+        31.2
+      ]
+    },
+    "j2:F-A": {
+      "diff_points": 21.5,
+      "ci95_points": [
+        12.5,
+        31.2
+      ]
+    },
+    "j2:F-B": {
+      "diff_points": 9.0,
+      "ci95_points": [
+        2.1,
+        16.7
+      ]
+    },
+    "j2:F-C": {
+      "diff_points": 6.9,
+      "ci95_points": [
+        0.7,
+        14.6
+      ]
+    },
+    "j2:F-D": {
+      "diff_points": 9.0,
+      "ci95_points": [
+        2.1,
+        16.7
+      ]
+    },
+    "j2:F-E": {
+      "diff_points": 4.9,
+      "ci95_points": [
+        -1.4,
+        12.5
+      ]
+    },
+    "j2:F-G": {
+      "diff_points": -0.7,
+      "ci95_points": [
+        -5.6,
+        4.2
+      ]
+    },
+    "j2:C-A": {
+      "diff_points": 14.6,
+      "ci95_points": [
+        2.8,
+        25.7
+      ]
+    },
+    "j2:B-A": {
+      "diff_points": 12.5,
+      "ci95_points": [
+        1.4,
+        23.6
+      ]
+    },
+    "j2:C-B": {
+      "diff_points": 2.1,
+      "ci95_points": [
+        -2.1,
+        6.2
+      ]
+    },
+    "j2:D-B": {
+      "diff_points": 0.0,
+      "ci95_points": [
+        -4.9,
+        4.9
+      ]
+    },
+    "j2:E-B": {
+      "diff_points": 4.2,
+      "ci95_points": [
+        -0.7,
+        9.0
+      ]
+    },
+    "j2:G-A": {
+      "diff_points": 22.2,
+      "ci95_points": [
+        13.2,
+        31.9
+      ]
+    }
+  }
+}

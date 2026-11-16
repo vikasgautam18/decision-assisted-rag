@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "subscription_id": "00000000-0000-0000-0000-000000000000",
+  "resource_group": "example-resource-group",
+  "search_endpoint": "https://example-search.search.windows.net",
+  "di_endpoint": "https://example-di.cognitiveservices.azure.com",
+  "ai_endpoint": "https://example-ai.cognitiveservices.azure.com",
+  "storage_account": "examplestorageacct",
+  "index_name": "decision-rag-chunks-v1",
+  "documents_container": "decision-rag-docs",
+  "layouts_container": "decision-rag-layout",
+  "figures_container": "decision-rag-figures",
+  "traces_container": "decision-rag-traces",
+  "writer_deployment": "gpt-5.6-sol",
+  "embedding_deployment": "text-embedding-3-large",
+  "embedding_dimensions": 3072,
+  "decision_deployment": "decision1-deployment"
+}

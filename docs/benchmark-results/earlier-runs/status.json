@@ -1,0 +1,66 @@
+{
+  "status": "two_pass_complete_provisional_reports_verified_human_review_pending",
+  "protocol_sha256": "4e5983d986aee10906a6ad45ba1132795d45b25dca49ddba5c203bcb18cf3fa0",
+  "updated_utc": "2026-11-05T18:24:06.843718+00:00",
+  "coordinator_pid": 74920,
+  "initial_application_requests": 1008,
+  "maximum_initial_grades": 1008,
+  "captured_application_attempts": 1008,
+  "grading_attempts": 946,
+  "reserved_usd_not_invoice": "2394.4",
+  "uncertain_attempts": 0,
+  "no_automatic_external_retries": true,
+  "pricing": "Assumed short primary; long-rate sensitivity; unknown usage remains unknown",
+  "runtime_cumulative_limits": {
+    "di_analysis": 6,
+    "decision": 32000,
+    "model": 20000,
+    "grading": 3100
+  },
+  "selected_passes": [
+    1,
+    2
+  ],
+  "additional_repetitions_authorized": false,
+  "scope_amendment": "two-pass-amendment/amendment.json",
+  "prior_reporting_failure": {
+    "status": "paused_requires_inspection_no_automatic_retries",
+    "updated_utc": "2026-11-05T17:35:27.916277+00:00",
+    "error_type": "CalledProcessError",
+    "error": "Command '['<repo-root>/.venv/bin/python', '<repo-root>/data/experiments/instrumented-ag-main-20261104/parallel-amendment/parallel_analysis_v9.py']' returned non-zero exit status 1.",
+    "report_error": "KeyError: restart_session",
+    "coordinator_exit_code": 1
+  },
+  "reporting_recovery": {
+    "script": "parallel-amendment/parallel_analysis_v11.py",
+    "manifest": "parallel-amendment/reporting-recovery-v11.json",
+    "missing_output_generated": "paced-runtime-segment-measurements.json",
+    "verified_existing_evidence_and_report_hashes": 5905,
+    "parallel_strata_attempts": 963,
+    "preserved_serial_attempts": 45,
+    "unknown_restart_sessions_not_reconstructed": 2,
+    "known_incomplete_server_traces": 1,
+    "focused_regression_tests_passed": 16,
+    "ruff_check_and_format": "passed",
+    "inference_submitted": false,
+    "existing_reports_and_raw_evidence_unchanged": true
+  },
+  "application_outcomes": {"completed": 946, "error": 59, "interrupted": 3},
+  "grading_outcomes": {"completed": 944, "error": 2},
+  "pending_attempts": 0,
+  "unsubmitted_selected_applications": 0,
+  "human_review_groups_pending": 615,
+  "invoice_reconciliation": "pending_separate_from_assumed_model_api_estimates",
+  "owned_services_verified_stopped": true,
+  "progress_schedule_2_stopped": true,
+  "af_failed_execution_retries_v12": {
+    "status": "completed_and_reconciled_zero_unpriced_calls_in_active_af_comparison",
+    "directory": "af-failed-retries-v12",
+    "report": "af-failed-retries-v12/af-retry-comparison-v12.json",
+    "outcome_markdown": "af-failed-retries-v12/af-retry-outcome-v12.md",
+    "application_retries_completed": 6,
+    "grading_retries_completed": 7,
+    "verified_unchanged_v11_evidence_hashes": 5905
+  },
+  "pacing_revision": "parallel-amendment/resume-revision-v10.json"
+}

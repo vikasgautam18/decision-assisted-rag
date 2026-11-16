@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Decision-assisted RAG</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 960px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    textarea { box-sizing: border-box; width: 100%; min-height: 6rem; padding: .8rem; font: inherit; }
+    button { font: inherit; padding: .5rem 1rem; margin: .5rem .5rem .5rem 0; cursor: pointer; }
+    article { border-top: 1px solid #888; margin-top: 1rem; padding-top: 1rem; }
+    .answer { white-space: pre-wrap; overflow-wrap: anywhere; }
+    img { max-width: 100%; height: auto; background: white; }
+    .meta { font-size: .85rem; opacity: .8; }
+    #status { min-height: 1.5em; }
+  </style>
+</head>
+<body>
+  <h1>Decision-assisted RAG</h1>
+  <form id="chat">
+    <label for="question">Ask about the technical dossiers</label>
+    <textarea id="question" maxlength="2000" required>What is the declared combined range of the NOVA-3 Dedicated CNG variant?</textarea>
+    <button id="submit" type="submit">Ask the live pipeline</button>
+    <button id="reset" type="button">New conversation</button>
+  </form>
+  <p id="status" role="status" aria-live="polite"></p>
+  <p id="budget" class="meta"></p>
+  <main id="messages" aria-label="Conversation"></main>
+  <script>
+    const form = document.querySelector('#chat');
+    const question = document.querySelector('#question');
+    const submit = document.querySelector('#submit');
+    const reset = document.querySelector('#reset');
+    const status = document.querySelector('#status');
+    const messages = document.querySelector('#messages');
+    let conversationId = null;
+    async function refreshBudget() {
+      try {
+        const response = await fetch('/api/status');
+        if (!response.ok) throw new Error('status unavailable');
+        const info = await response.json();
+        document.querySelector('#budget').textContent = Object.entries(info.budget)
+          .map(([key, value]) => `${key}: ${value.remaining} calls remaining`).join(' | ');
+      } catch {
+        document.querySelector('#budget').textContent = 'Live quota status unavailable.';
+      }
+    }
+    refreshBudget();
+    reset.addEventListener('click', () => {
+      conversationId = null;
+      messages.replaceChildren();
+      status.textContent = 'New conversation. Previous assistant assertions are not evidence.';
+    });
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      if (!question.value.trim()) return;
+      submit.disabled = true;
+      reset.disabled = true;
+      status.textContent = 'Retrieving and verifying with live Azure services...';
+      const asked = question.value.trim();
+      try {
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({question: asked, conversation_id: conversationId})
+        });
+        const result = await response.json();
+        if (!response.ok || result.status === 'error') {
+          status.textContent = `Request failed: ${result.error_code || result.detail || response.status}. No verified answer was delivered.`;
+          return;
+        }
+        conversationId = result.conversation_id;
+        const article = document.createElement('article');
+        const heading = document.createElement('h2');
+        heading.textContent = asked;
+        const answer = document.createElement('p');
+        answer.className = 'answer';
+        answer.textContent = result.answer;
+        const meta = document.createElement('p');
+        meta.className = 'meta';
+        meta.textContent = `${result.behavior} | Semantic verification: ${result.semantic_verification} | ${result.trace_id}`;
+        article.append(heading, answer, meta);
+        for (const citation of result.citations) {
+          const link = document.createElement('a');
+          link.href = `/api/documents/${encodeURIComponent(citation.document)}#page=${citation.page_start}`;
+          link.target = '_blank';
+          link.rel = 'noopener';
+          link.textContent = `${citation.source_id}: ${citation.document} Rev ${citation.revision}, pages ${citation.page_start}-${citation.page_end}`;
+          article.append(link, document.createElement('br'));
+        }
+        for (const figure of result.figures) {
+          const image = document.createElement('img');
+          image.src = `/api/figures/${encodeURIComponent(figure.key)}`;
+          image.alt = `Original dossier figure ${figure.key}`;
+          article.append(image);
+        }
+        messages.append(article);
+        status.textContent = 'Completed. Results are exploratory pilot output, not benchmark evidence.';
+      } catch {
+        status.textContent = 'Network or response error. No verified answer was delivered.';
+      } finally {
+        submit.disabled = false;
+        reset.disabled = false;
+        refreshBudget();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,580 @@
+{
+  "status": "af_failed_executions_retried_and_reconciled_provisional_human_review_pending",
+  "completed_utc": "2026-11-06T03:08:19.309264+00:00",
+  "original_protocol_sha256": "4e5983d986aee10906a6ad45ba1132795d45b25dca49ddba5c203bcb18cf3fa0",
+  "retry_directory": "af-failed-retries-v12",
+  "application_retries": [
+    {
+      "arm": "F",
+      "case_id": "q04",
+      "pass_number": 1,
+      "ordinal": 49,
+      "reason": "failed_or_interrupted_first_attempt",
+      "first_attempt_observation_id": "94bfd86276e35465b9a6a1ca8c3e98b6",
+      "first_attempt_status": "interrupted",
+      "first_attempt_unpriced_calls": 1,
+      "retry_observation_id": "e47f51109a60564ca55ec9a96ad4a716",
+      "retry_status": "completed",
+      "retry_application_seconds": 54.36064920699573,
+      "retry_strict_provisional_pass": true,
+      "retry_observable_serving_calls": 9,
+      "retry_unpriced_serving_calls": 0,
+      "retry_serving_assumed_short_usd": "0.067530755",
+      "retry_serving_long_rate_usd": "0.129082755"
+    },
+    {
+      "arm": "F",
+      "case_id": "q70",
+      "pass_number": 1,
+      "ordinal": 147,
+      "reason": "failed_or_interrupted_first_attempt",
+      "first_attempt_observation_id": "00168fb052cb5a948822e6dde747c617",
+      "first_attempt_status": "error",
+      "first_attempt_unpriced_calls": 1,
+      "retry_observation_id": "fd278022b04459d19660b59675240fbf",
+      "retry_status": "completed",
+      "retry_application_seconds": 76.67187526200723,
+      "retry_strict_provisional_pass": true,
+      "retry_observable_serving_calls": 11,
+      "retry_unpriced_serving_calls": 0,
+      "retry_serving_assumed_short_usd": "0.144416462",
+      "retry_serving_long_rate_usd": "0.275403462"
+    },
+    {
+      "arm": "F",
+      "case_id": "q12",
+      "pass_number": 1,
+      "ordinal": 269,
+      "reason": "failed_or_interrupted_first_attempt",
+      "first_attempt_observation_id": "98d02aae197c5010995cb3435c530c5c",
+      "first_attempt_status": "error",
+      "first_attempt_unpriced_calls": 1,
+      "retry_observation_id": "83e27910de485d9e926f38f5a7a5da75",
+      "retry_status": "completed",
+      "retry_application_seconds": 69.52679640299175,
+      "retry_strict_provisional_pass": true,
+      "retry_observable_serving_calls": 12,
+      "retry_unpriced_serving_calls": 0,
+      "retry_serving_assumed_short_usd": "0.113221371",
+      "retry_serving_long_rate_usd": "0.219933371"
+    },
+    {
+      "arm": "A",
+      "case_id": "q64",
+      "pass_number": 1,
+      "ordinal": 209,
+      "reason": "failed_or_interrupted_first_attempt",
+      "first_attempt_observation_id": "d08e4f0a728b53189e048a8a0416dc46",
+      "first_attempt_status": "error",
+      "first_attempt_unpriced_calls": 1,
+      "retry_observation_id": "5dce90cee8305d3b98d77f640b3b5aef",
+      "retry_status": "completed",
+      "retry_application_seconds": 28.98156095399463,
+      "retry_strict_provisional_pass": true,
+      "retry_observable_serving_calls": 1,
+      "retry_unpriced_serving_calls": 0,
+      "retry_serving_assumed_short_usd": "0.066726",
+      "retry_serving_long_rate_usd": "0.130182"
+    },
+    {
+      "arm": "A",
+      "case_id": "q50",
+      "pass_number": 1,
+      "ordinal": 19,
+      "reason": "completed_first_attempt_had_failed_inner_sdk_calls_without_usage",
+      "first_attempt_observation_id": "f3dccbf5b145537b8bd717015b805899",
+      "first_attempt_status": "completed",
+      "first_attempt_unpriced_calls": 3,
+      "retry_observation_id": "f9bc4dc163ac5b6cb947b247abacacd3",
+      "retry_status": "completed",
+      "retry_application_seconds": 20.211585334996926,
+      "retry_strict_provisional_pass": true,
+      "retry_observable_serving_calls": 1,
+      "retry_unpriced_serving_calls": 0,
+      "retry_serving_assumed_short_usd": "0.0677612",
+      "retry_serving_long_rate_usd": "0.1329024"
+    },
+    {
+      "arm": "A",
+      "case_id": "q04",
+      "pass_number": 1,
+      "ordinal": 55,
+      "reason": "completed_first_attempt_had_failed_inner_sdk_calls_without_usage",
+      "first_attempt_observation_id": "28ddf51a970d5508a77bdc5cbe86378b",
+      "first_attempt_status": "completed",
+      "first_attempt_unpriced_calls": 1,
+      "retry_observation_id": "d10f9e6b34be5f4ea55d375e01ea070c",
+      "retry_status": "completed",
+      "retry_application_seconds": 22.320732516993303,
+      "retry_strict_provisional_pass": true,
+      "retry_observable_serving_calls": 1,
+      "retry_unpriced_serving_calls": 0,
+      "retry_serving_assumed_short_usd": "0.0695932",
+      "retry_serving_long_rate_usd": "0.1366164"
+    }
+  ],
+  "grading_retries": [
+    {
+      "arm": "F",
+      "case_id": "q52",
+      "pass_number": 2,
+      "observation_id": "452804fe67065065914cb3e65e3c73e8",
+      "first_grading_status": "error",
+      "retry_grading_status": "completed",
+      "retry_strict_provisional_pass": true,
+      "evaluator_deployment": "decision-rag-evaluator-3"
+    }
+  ],
+  "retry_span_trace_count": 19,
+  "retry_incomplete_traces": 0,
+  "views": {
+    "first_attempt_original": {
+      "by_arm": {
+        "A": {
+          "scheduled_requests": 144,
+          "completed": 143,
+          "operational_errors": 1,
+          "interrupted": 0,
+          "strict_provisional_passes": 102,
+          "pass_fraction": 0.7083333333333334,
+          "grading_unknown_delivered": 0,
+          "all_attempt_latency_seconds": {
+            "n": 144,
+            "mean": 25.4288254430344,
+            "median": 22.539695420997305,
+            "p90": 33.68889836099879,
+            "p95": 48.06003479500214,
+            "max": 86.15918512199642
+          },
+          "completed_latency_seconds": {
+            "n": 143,
+            "mean": 25.184642769398277,
+            "median": 22.495797178999055,
+            "p90": 32.175270866999654,
+            "p95": 44.05414623799879,
+            "max": 86.15918512199642
+          },
+          "active_observable_serving_calls": 148,
+          "active_serving_primary_assumed_short_subtotal_usd": "10.4189664",
+          "active_serving_long_rate_sensitivity_subtotal_usd": "20.3026628",
+          "active_serving_unpriced_calls_even_under_assumption": 5,
+          "cumulative_including_failed_first_attempts_calls": 148,
+          "cumulative_including_failed_first_attempts_assumed_short_usd": "10.4189664",
+          "cumulative_including_failed_first_attempts_long_rate_usd": "20.3026628",
+          "cumulative_unpriced_calls": 5,
+          "active_writer_cache_counters": {
+            "input_tokens": {
+              "reported_sum": 2505435,
+              "known_calls": 143,
+              "unknown_calls": 5
+            },
+            "output_tokens": {
+              "reported_sum": 53527,
+              "known_calls": 143,
+              "unknown_calls": 5
+            },
+            "cached_tokens": {
+              "reported_sum": 190186,
+              "known_calls": 143,
+              "unknown_calls": 5
+            },
+            "cache_write_tokens": {
+              "reported_sum": 11356,
+              "known_calls": 143,
+              "unknown_calls": 5
+            }
+          }
+        },
+        "F": {
+          "scheduled_requests": 144,
+          "completed": 141,
+          "operational_errors": 2,
+          "interrupted": 1,
+          "strict_provisional_passes": 129,
+          "pass_fraction": 0.8958333333333334,
+          "grading_unknown_delivered": 1,
+          "all_attempt_latency_seconds": {
+            "n": 143,
+            "mean": 40.727358677272875,
+            "median": 34.76442008799495,
+            "p90": 74.43255181099812,
+            "p95": 87.922069981003,
+            "max": 115.93063257000176
+          },
+          "completed_latency_seconds": {
+            "n": 141,
+            "mean": 41.04260365689376,
+            "median": 34.96961256000213,
+            "p90": 74.43255181099812,
+            "p95": 87.922069981003,
+            "max": 115.93063257000176
+          },
+          "active_observable_serving_calls": 1319,
+          "active_serving_primary_assumed_short_subtotal_usd": "8.829538161",
+          "active_serving_long_rate_sensitivity_subtotal_usd": "16.644000561",
+          "active_serving_unpriced_calls_even_under_assumption": 3,
+          "cumulative_including_failed_first_attempts_calls": 1319,
+          "cumulative_including_failed_first_attempts_assumed_short_usd": "8.829538161",
+          "cumulative_including_failed_first_attempts_long_rate_usd": "16.644000561",
+          "cumulative_unpriced_calls": 3,
+          "active_writer_cache_counters": {
+            "input_tokens": {
+              "reported_sum": 2217269,
+              "known_calls": 146,
+              "unknown_calls": 0
+            },
+            "output_tokens": {
+              "reported_sum": 77932,
+              "known_calls": 146,
+              "unknown_calls": 0
+            },
+            "cached_tokens": {
+              "reported_sum": 880601,
+              "known_calls": 146,
+              "unknown_calls": 0
+            },
+            "cache_write_tokens": {
+              "reported_sum": 1336230,
+              "known_calls": 146,
+              "unknown_calls": 0
+            }
+          }
+        }
+      },
+      "paired_A_minus_F": {
+        "strict_provisional_quality": {
+          "mean_question_difference": -0.1875,
+          "interval_95_percentile": [
+            -0.2847222222222222,
+            -0.08333333333333333
+          ],
+          "question_clusters": 72,
+          "matched_observations": 143,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        },
+        "application_latency_seconds": {
+          "mean_question_difference": -15.33380734481301,
+          "interval_95_percentile": [
+            -19.631731947243434,
+            -11.469205563222522
+          ],
+          "question_clusters": 72,
+          "matched_observations": 143,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        },
+        "primary_assumed_short_serving_cost_usd_known_pairs": {
+          "mean_question_difference": 0.011078019569444444,
+          "interval_95_percentile": [
+            0.0010290947361111108,
+            0.020188500791666668
+          ],
+          "question_clusters": 72,
+          "matched_observations": 139,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        }
+      }
+    },
+    "failed_execution_retry_adjusted": {
+      "by_arm": {
+        "A": {
+          "scheduled_requests": 144,
+          "completed": 144,
+          "operational_errors": 0,
+          "interrupted": 0,
+          "strict_provisional_passes": 103,
+          "pass_fraction": 0.7152777777777778,
+          "grading_unknown_delivered": 0,
+          "all_attempt_latency_seconds": {
+            "n": 144,
+            "mean": 25.211010256791308,
+            "median": 22.539695420997305,
+            "p90": 32.175270866999654,
+            "p95": 44.05414623799879,
+            "max": 86.15918512199642
+          },
+          "completed_latency_seconds": {
+            "n": 144,
+            "mean": 25.211010256791308,
+            "median": 22.539695420997305,
+            "p90": 32.175270866999654,
+            "p95": 44.05414623799879,
+            "max": 86.15918512199642
+          },
+          "active_observable_serving_calls": 148,
+          "active_serving_primary_assumed_short_subtotal_usd": "10.4856924",
+          "active_serving_long_rate_sensitivity_subtotal_usd": "20.4328448",
+          "active_serving_unpriced_calls_even_under_assumption": 4,
+          "cumulative_including_failed_first_attempts_calls": 149,
+          "cumulative_including_failed_first_attempts_assumed_short_usd": "10.4856924",
+          "cumulative_including_failed_first_attempts_long_rate_usd": "20.4328448",
+          "cumulative_unpriced_calls": 5,
+          "active_writer_cache_counters": {
+            "input_tokens": {
+              "reported_sum": 2520128,
+              "known_calls": 144,
+              "unknown_calls": 4
+            },
+            "output_tokens": {
+              "reported_sum": 53854,
+              "known_calls": 144,
+              "unknown_calls": 4
+            },
+            "cached_tokens": {
+              "reported_sum": 190186,
+              "known_calls": 144,
+              "unknown_calls": 4
+            },
+            "cache_write_tokens": {
+              "reported_sum": 12770,
+              "known_calls": 144,
+              "unknown_calls": 4
+            }
+          }
+        },
+        "F": {
+          "scheduled_requests": 144,
+          "completed": 144,
+          "operational_errors": 0,
+          "interrupted": 0,
+          "strict_provisional_passes": 133,
+          "pass_fraction": 0.9236111111111112,
+          "grading_unknown_delivered": 0,
+          "all_attempt_latency_seconds": {
+            "n": 144,
+            "mean": 41.580322475652885,
+            "median": 35.84223411150015,
+            "p90": 74.57055780300288,
+            "p95": 87.922069981003,
+            "max": 115.93063257000176
+          },
+          "completed_latency_seconds": {
+            "n": 144,
+            "mean": 41.580322475652885,
+            "median": 35.84223411150015,
+            "p90": 74.57055780300288,
+            "p95": 87.922069981003,
+            "max": 115.93063257000176
+          },
+          "active_observable_serving_calls": 1336,
+          "active_serving_primary_assumed_short_subtotal_usd": "9.153037020",
+          "active_serving_long_rate_sensitivity_subtotal_usd": "17.266750420",
+          "active_serving_unpriced_calls_even_under_assumption": 0,
+          "cumulative_including_failed_first_attempts_calls": 1351,
+          "cumulative_including_failed_first_attempts_assumed_short_usd": "9.154706749",
+          "cumulative_including_failed_first_attempts_long_rate_usd": "17.268420149",
+          "cumulative_unpriced_calls": 3,
+          "active_writer_cache_counters": {
+            "input_tokens": {
+              "reported_sum": 2273127,
+              "known_calls": 149,
+              "unknown_calls": 0
+            },
+            "output_tokens": {
+              "reported_sum": 79929,
+              "known_calls": 149,
+              "unknown_calls": 0
+            },
+            "cached_tokens": {
+              "reported_sum": 880601,
+              "known_calls": 149,
+              "unknown_calls": 0
+            },
+            "cache_write_tokens": {
+              "reported_sum": 1392079,
+              "known_calls": 149,
+              "unknown_calls": 0
+            }
+          }
+        }
+      },
+      "paired_A_minus_F": {
+        "strict_provisional_quality": {
+          "mean_question_difference": -0.20833333333333334,
+          "interval_95_percentile": [
+            -0.3055555555555556,
+            -0.1111111111111111
+          ],
+          "question_clusters": 72,
+          "matched_observations": 144,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        },
+        "application_latency_seconds": {
+          "mean_question_difference": -16.369312218861577,
+          "interval_95_percentile": [
+            -20.562065762882277,
+            -12.428329479201935
+          ],
+          "question_clusters": 72,
+          "matched_observations": 144,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        },
+        "primary_assumed_short_serving_cost_usd_known_pairs": {
+          "mean_question_difference": 0.009581573319444444,
+          "interval_95_percentile": [
+            -0.00029476938888888866,
+            0.01892386026388889
+          ],
+          "question_clusters": 72,
+          "matched_observations": 142,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        }
+      }
+    },
+    "clean_call_zero_unpriced_retry_adjusted": {
+      "by_arm": {
+        "A": {
+          "scheduled_requests": 144,
+          "completed": 144,
+          "operational_errors": 0,
+          "interrupted": 0,
+          "strict_provisional_passes": 103,
+          "pass_fraction": 0.7152777777777778,
+          "grading_unknown_delivered": 0,
+          "all_attempt_latency_seconds": {
+            "n": 144,
+            "mean": 24.70620480754129,
+            "median": 22.40957284599864,
+            "p90": 31.56671365100192,
+            "p95": 42.458839754996006,
+            "max": 59.70689008299996
+          },
+          "completed_latency_seconds": {
+            "n": 144,
+            "mean": 24.70620480754129,
+            "median": 22.40957284599864,
+            "p90": 31.56671365100192,
+            "p95": 42.458839754996006,
+            "max": 59.70689008299996
+          },
+          "active_observable_serving_calls": 144,
+          "active_serving_primary_assumed_short_subtotal_usd": "10.4781588",
+          "active_serving_long_rate_sensitivity_subtotal_usd": "20.4169976",
+          "active_serving_unpriced_calls_even_under_assumption": 0,
+          "cumulative_including_failed_first_attempts_calls": 151,
+          "cumulative_including_failed_first_attempts_assumed_short_usd": "10.6230468",
+          "cumulative_including_failed_first_attempts_long_rate_usd": "20.7023636",
+          "cumulative_unpriced_calls": 5,
+          "active_writer_cache_counters": {
+            "input_tokens": {
+              "reported_sum": 2519414,
+              "known_calls": 144,
+              "unknown_calls": 0
+            },
+            "output_tokens": {
+              "reported_sum": 53932,
+              "known_calls": 144,
+              "unknown_calls": 0
+            },
+            "cached_tokens": {
+              "reported_sum": 191542,
+              "known_calls": 144,
+              "unknown_calls": 0
+            },
+            "cache_write_tokens": {
+              "reported_sum": 11414,
+              "known_calls": 144,
+              "unknown_calls": 0
+            }
+          }
+        },
+        "F": {
+          "scheduled_requests": 144,
+          "completed": 144,
+          "operational_errors": 0,
+          "interrupted": 0,
+          "strict_provisional_passes": 133,
+          "pass_fraction": 0.9236111111111112,
+          "grading_unknown_delivered": 0,
+          "all_attempt_latency_seconds": {
+            "n": 144,
+            "mean": 41.580322475652885,
+            "median": 35.84223411150015,
+            "p90": 74.57055780300288,
+            "p95": 87.922069981003,
+            "max": 115.93063257000176
+          },
+          "completed_latency_seconds": {
+            "n": 144,
+            "mean": 41.580322475652885,
+            "median": 35.84223411150015,
+            "p90": 74.57055780300288,
+            "p95": 87.922069981003,
+            "max": 115.93063257000176
+          },
+          "active_observable_serving_calls": 1336,
+          "active_serving_primary_assumed_short_subtotal_usd": "9.153037020",
+          "active_serving_long_rate_sensitivity_subtotal_usd": "17.266750420",
+          "active_serving_unpriced_calls_even_under_assumption": 0,
+          "cumulative_including_failed_first_attempts_calls": 1351,
+          "cumulative_including_failed_first_attempts_assumed_short_usd": "9.154706749",
+          "cumulative_including_failed_first_attempts_long_rate_usd": "17.268420149",
+          "cumulative_unpriced_calls": 3,
+          "active_writer_cache_counters": {
+            "input_tokens": {
+              "reported_sum": 2273127,
+              "known_calls": 149,
+              "unknown_calls": 0
+            },
+            "output_tokens": {
+              "reported_sum": 79929,
+              "known_calls": 149,
+              "unknown_calls": 0
+            },
+            "cached_tokens": {
+              "reported_sum": 880601,
+              "known_calls": 149,
+              "unknown_calls": 0
+            },
+            "cache_write_tokens": {
+              "reported_sum": 1392079,
+              "known_calls": 149,
+              "unknown_calls": 0
+            }
+          }
+        }
+      },
+      "paired_A_minus_F": {
+        "strict_provisional_quality": {
+          "mean_question_difference": -0.20833333333333334,
+          "interval_95_percentile": [
+            -0.3055555555555556,
+            -0.1111111111111111
+          ],
+          "question_clusters": 72,
+          "matched_observations": 144,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        },
+        "application_latency_seconds": {
+          "mean_question_difference": -16.874117668111595,
+          "interval_95_percentile": [
+            -21.071001035806354,
+            -12.869004663944523
+          ],
+          "question_clusters": 72,
+          "matched_observations": 144,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        },
+        "primary_assumed_short_serving_cost_usd_known_pairs": {
+          "mean_question_difference": 0.009202234583333333,
+          "interval_95_percentile": [
+            -0.0005493159583333335,
+            0.018330158569444446
+          ],
+          "question_clusters": 72,
+          "matched_observations": 144,
+          "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+          "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+        }
+      }
+    }
+  },
+  "verified_unchanged_v11_evidence_hashes": 5905
+}

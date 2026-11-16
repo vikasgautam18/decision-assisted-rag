@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "document": "VEGA-7",
+  "revision": "C",
+  "pdf_sha256": "f6ca9379e3ebada3d8e891fb6d026a261e796229442eb54cd74f9d931ab7e7b0",
+  "review_status": "source inspected; domain acceptance in phase 2",
+  "historical_pages": [14],
+  "sections": {"overview": [4], "powertrain": [5], "homologation": [6, 7, 8],
+    "mounting": [9], "suppliers": [10], "warranty": [11], "thermal": [12],
+    "maintenance": [13], "history": [14]},
+  "table_continuations": {
+    "VEGA-7-table-11": "VEGA-7-table-10",
+    "VEGA-7-table-12": "VEGA-7-table-10"
+  },
+  "provenance": "Original pages 6-8 explicitly continue Table 3.1; both continuations use page 6 headers, not the unrelated disposition summary on page 8. Appendix A is page 14."
+}

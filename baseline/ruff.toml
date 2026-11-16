@@ -1,0 +1,2 @@
+# Hash-pinned source of Config A: keep it byte-identical, so do not lint or format it.
+exclude = ["config-a"]

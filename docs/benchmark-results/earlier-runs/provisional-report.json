@@ -1,0 +1,341 @@
+{
+  "status": "provisional_quality_billing_and_human_review_not_finalized",
+  "protocol_sha256": "b36b104990dea1ca832f4d6fe51110d4908f3978be7aa22ec16f68f6ef454297",
+  "cost_scope": {
+    "label": "Model/API usage cost, not total serving cost",
+    "excluded_categories": [
+      "search_retrieval",
+      "defender_ai"
+    ],
+    "exclusion_reference": "User: ignore these two for both implementations",
+    "applies_to_arms": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "excluded_charges_are_zero": false,
+    "total_serving_cost_claim": false,
+    "limitations": "Other missing included-model usage remains unpriced; exclusions do not waive telemetry, pricing or paid-approval gates."
+  },
+  "by_arm": {
+    "A": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 143,
+      "operational_errors": 1,
+      "interrupted_or_reserved": 0,
+      "strict_provisional_passes": 102,
+      "grading_unknown_delivered": 0,
+      "pass_fraction_all_scheduled": 0.7083333333333334,
+      "all_attempt_latency_seconds": {
+        "n": 144,
+        "mean": 25.4288254430344,
+        "median": 22.539695420997305,
+        "p90": 33.68889836099879,
+        "p95": 48.06003479500214,
+        "max": 86.15918512199642
+      },
+      "completed_latency_seconds": {
+        "n": 143,
+        "mean": 25.184642769398277,
+        "median": 22.495797178999055,
+        "p90": 32.175270866999654,
+        "p95": 44.05414623799879,
+        "max": 86.15918512199642
+      },
+      "completed_within_180_seconds": 143
+    },
+    "B": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 140,
+      "operational_errors": 4,
+      "interrupted_or_reserved": 0,
+      "strict_provisional_passes": 124,
+      "grading_unknown_delivered": 0,
+      "pass_fraction_all_scheduled": 0.8611111111111112,
+      "all_attempt_latency_seconds": {
+        "n": 144,
+        "mean": 23.831521967097288,
+        "median": 16.131610315000216,
+        "p90": 54.71762607499841,
+        "p95": 58.86243356000341,
+        "max": 134.09283233599854
+      },
+      "completed_latency_seconds": {
+        "n": 140,
+        "mean": 24.37805247786437,
+        "median": 16.497697243000857,
+        "p90": 54.71762607499841,
+        "p95": 58.86243356000341,
+        "max": 134.09283233599854
+      },
+      "completed_within_180_seconds": 140
+    },
+    "C": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 139,
+      "operational_errors": 5,
+      "interrupted_or_reserved": 0,
+      "strict_provisional_passes": 123,
+      "grading_unknown_delivered": 0,
+      "pass_fraction_all_scheduled": 0.8541666666666666,
+      "all_attempt_latency_seconds": {
+        "n": 144,
+        "mean": 35.24958206288188,
+        "median": 31.084641302997625,
+        "p90": 57.43502050599636,
+        "p95": 66.22890590099996,
+        "max": 145.46423291399697
+      },
+      "completed_latency_seconds": {
+        "n": 139,
+        "mean": 35.27533887723734,
+        "median": 31.192777892007143,
+        "p90": 57.43502050599636,
+        "p95": 66.22890590099996,
+        "max": 137.32940435199998
+      },
+      "completed_within_180_seconds": 139
+    },
+    "D": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 138,
+      "operational_errors": 5,
+      "interrupted_or_reserved": 1,
+      "strict_provisional_passes": 125,
+      "grading_unknown_delivered": 0,
+      "pass_fraction_all_scheduled": 0.8680555555555556,
+      "all_attempt_latency_seconds": {
+        "n": 143,
+        "mean": 24.79159226481135,
+        "median": 15.871230908000143,
+        "p90": 54.1713012859999,
+        "p95": 75.77273836699896,
+        "max": 195.08422336699732
+      },
+      "completed_latency_seconds": {
+        "n": 138,
+        "mean": 23.26383364489869,
+        "median": 15.765685358000155,
+        "p90": 51.92751850599598,
+        "p95": 58.92535406699972,
+        "max": 146.31176417700044
+      },
+      "completed_within_180_seconds": 138
+    },
+    "E": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 140,
+      "operational_errors": 4,
+      "interrupted_or_reserved": 0,
+      "strict_provisional_passes": 124,
+      "grading_unknown_delivered": 0,
+      "pass_fraction_all_scheduled": 0.8611111111111112,
+      "all_attempt_latency_seconds": {
+        "n": 144,
+        "mean": 39.91581488581984,
+        "median": 33.67240984599994,
+        "p90": 73.0787424200098,
+        "p95": 81.77856680200784,
+        "max": 136.46467861700148
+      },
+      "completed_latency_seconds": {
+        "n": 140,
+        "mean": 39.99048607543608,
+        "median": 33.90302103450449,
+        "p90": 72.06713226399734,
+        "p95": 77.52960559600615,
+        "max": 134.72279697799968
+      },
+      "completed_within_180_seconds": 140
+    },
+    "F": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 141,
+      "operational_errors": 2,
+      "interrupted_or_reserved": 1,
+      "strict_provisional_passes": 129,
+      "grading_unknown_delivered": 1,
+      "pass_fraction_all_scheduled": 0.8958333333333334,
+      "all_attempt_latency_seconds": {
+        "n": 143,
+        "mean": 40.727358677272875,
+        "median": 34.76442008799495,
+        "p90": 74.43255181099812,
+        "p95": 87.922069981003,
+        "max": 115.93063257000176
+      },
+      "completed_latency_seconds": {
+        "n": 141,
+        "mean": 41.04260365689376,
+        "median": 34.96961256000213,
+        "p90": 74.43255181099812,
+        "p95": 87.922069981003,
+        "max": 115.93063257000176
+      },
+      "completed_within_180_seconds": 141
+    },
+    "G": {
+      "scheduled_first_attempts": 144,
+      "captured_first_attempts": 144,
+      "not_captured": 0,
+      "completed": 105,
+      "operational_errors": 38,
+      "interrupted_or_reserved": 1,
+      "strict_provisional_passes": 100,
+      "grading_unknown_delivered": 1,
+      "pass_fraction_all_scheduled": 0.6944444444444444,
+      "all_attempt_latency_seconds": {
+        "n": 143,
+        "mean": 113.20979411450367,
+        "median": 112.45914434700535,
+        "p90": 180.0635478990007,
+        "p95": 180.06879085300898,
+        "max": 180.16382837000128
+      },
+      "completed_latency_seconds": {
+        "n": 105,
+        "mean": 96.724281860267,
+        "median": 89.63146611799311,
+        "p90": 158.8551350359994,
+        "p95": 166.0758554730055,
+        "max": 176.23837065100088
+      },
+      "completed_within_180_seconds": 105
+    }
+  },
+  "application_retries_captured": 0,
+  "retry_elapsed_to_completed_response_seconds": {},
+  "paired_all_attempt_latency_differences": {
+    "A-F": {
+      "mean_question_difference": -15.33380734481301,
+      "interval_95_percentile": [
+        -19.631731947243434,
+        -11.469205563222522
+      ],
+      "question_clusters": 72,
+      "matched_observations": 143,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    },
+    "C-B": {
+      "mean_question_difference": 11.418060095784591,
+      "interval_95_percentile": [
+        8.607475183389184,
+        14.159123635763963
+      ],
+      "question_clusters": 72,
+      "matched_observations": 144,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    },
+    "D-B": {
+      "mean_question_difference": 1.231219750777799,
+      "interval_95_percentile": [
+        -2.2675001638055665,
+        5.156845942187631
+      ],
+      "question_clusters": 72,
+      "matched_observations": 143,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    },
+    "E-C": {
+      "mean_question_difference": 4.66623282293796,
+      "interval_95_percentile": [
+        1.4012996449727808,
+        8.184143982493957
+      ],
+      "question_clusters": 72,
+      "matched_observations": 144,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    },
+    "E-D": {
+      "mean_question_difference": 15.335797672715563,
+      "interval_95_percentile": [
+        10.68409602209812,
+        19.547017966986964
+      ],
+      "question_clusters": 72,
+      "matched_observations": 143,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    },
+    "F-E": {
+      "mean_question_difference": 0.656098764020568,
+      "interval_95_percentile": [
+        -3.9069202117642683,
+        6.1557767265345085
+      ],
+      "question_clusters": 72,
+      "matched_observations": 143,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    },
+    "F-G": {
+      "mean_question_difference": -72.87303110903483,
+      "interval_95_percentile": [
+        -81.45621064265963,
+        -64.7231936631601
+      ],
+      "question_clusters": 72,
+      "matched_observations": 142,
+      "method": "seeded question-cluster bootstrap; exploratory, not multiplicity-adjusted",
+      "limitations": "Exposed questions; correlated fact families may reduce effective diversity."
+    }
+  },
+  "cost": "requires exact-ID call reconciliation and verified rate card; not zero",
+  "human_review": "not_incorporated",
+  "limitations": [
+    "Five repetitions are repeated observations of 72 exposed questions, not 360 new cases.",
+    "Unknown grading is not a confirmed semantic failure.",
+    "Native retries/deadlines differ; G's categorical acceptance differs from Decision-1.",
+    "Provider cache and deployment placement require separate stratified analysis.",
+    "No superiority, equivalence, invoice-total or production-capacity claim."
+  ],
+  "original_protocol_sha256": "4e5983d986aee10906a6ad45ba1132795d45b25dca49ddba5c203bcb18cf3fa0",
+  "selected_scope_amendment": {
+    "status": "user_directed_reduced_scope_preserving_original_protocol",
+    "user_decisions": [
+      "let's only do 2 repetitions",
+      "to begin with",
+      "and then add more repetitions as needed"
+    ],
+    "captured_utc": "2026-11-04T11:16:35.252768+00:00",
+    "original_protocol_sha256": "4e5983d986aee10906a6ad45ba1132795d45b25dca49ddba5c203bcb18cf3fa0",
+    "original_protocol_schedule_source_rates_and_approval_unchanged": true,
+    "selected_passes": [
+      1,
+      2
+    ],
+    "selected_ids_sha256": "ee93b4db5b6e310d7338ef42ad71a645928ac3c8391b234801a2d59e08bf752f",
+    "maximum_initial_application_attempts": 1008,
+    "maximum_initial_grading_attempts": 1008,
+    "reduced_maximum_reservations_usd_not_invoice_cap": "2419.20",
+    "existing_attempts_count_toward_limit": true,
+    "additional_repetitions_authorized": false,
+    "future_repetitions_require_user_decision_after_results": true,
+    "retries_load_ingestion_and_additional_deployments_authorized": false,
+    "service_restart_and_user_interruption_disclosed": true,
+    "original_cumulative_counters_and_reservation_amounts_preserved": true
+  },
+  "analysis_scope_sha256": "b36b104990dea1ca832f4d6fe51110d4908f3978be7aa22ec16f68f6ef454297",
+  "full_original_five_pass_protocol_completed": false,
+  "interruption_count": 3
+}

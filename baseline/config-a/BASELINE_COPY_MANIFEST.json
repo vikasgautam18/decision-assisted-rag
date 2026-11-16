@@ -1,0 +1,390 @@
+{
+  "schema": "baseline-copy-v1",
+  "source_sha": "3c7f847137db5d0b2d4680e527c39fa2173ccb10",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob": "aabb4c9d7691196fc92851db5285aed0d5810725",
+      "git_mode": "100644",
+      "sha256": "07c47011b915282122a5562c0b7935a94039788bda33d199be871821d7f30bfe"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "27b06730c2ad3ef50e8d910b1f215449689b8b49",
+      "git_mode": "100644",
+      "sha256": "6d9bd0005fd208c6c55d66dcd72c456f59fb8668e4f85c8b493ee017aa9db58b"
+    },
+    {
+      "path": "backend/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/agent/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/agent/ask.py",
+      "git_blob": "754623a8333b8e5f29fc31f8e02bfd6fdb672d28",
+      "git_mode": "100644",
+      "sha256": "82215d267d51c1d384beea0084f88f305eee7f63cac3c92f38a32293c9930a4c"
+    },
+    {
+      "path": "backend/agent/setup_agent.py",
+      "git_blob": "d17a6aea59b9493e9e485f9134d241afa2f5559d",
+      "git_mode": "100644",
+      "sha256": "5be4f18a9cd7db88eaf56d38555a71939bae7cfb8363d3d053521837139fbfad"
+    },
+    {
+      "path": "backend/app.py",
+      "git_blob": "f83aa2d985a01e6ef99013ccf00cdefc84460231",
+      "git_mode": "100644",
+      "sha256": "46000344bcfd4744a4fb71024a69f072550185cbd2d089e7be3a5d9f4275e069"
+    },
+    {
+      "path": "backend/audit.py",
+      "git_blob": "be9b593598164cc7ef33abffe8c47b2fc83b81b7",
+      "git_mode": "100644",
+      "sha256": "8c1e9cff8fbe57a9f71b886b9ce260e34682df018bbda0fe51b0882a92a4b148"
+    },
+    {
+      "path": "backend/excel_agent.py",
+      "git_blob": "06d87fba1784a4b57eea52a22743e2d4f1b59d71",
+      "git_mode": "100644",
+      "sha256": "0dbb800edad06dd83f645596cce797a2725d2eb1b42f72844d58b5ad3bb2bbc3"
+    },
+    {
+      "path": "backend/excel_cleanup.py",
+      "git_blob": "a8ef75cb5f4ec948c66c7695e5091acb9a238429",
+      "git_mode": "100644",
+      "sha256": "f9518fce4a92ffd2fba8367de47b7b6f2781f65996955ea83292b84733414273"
+    },
+    {
+      "path": "backend/excel_prep.py",
+      "git_blob": "c598e42a3178b07b130737e03cd9ba1cfed74a9e",
+      "git_mode": "100644",
+      "sha256": "7c91e097272af7e4e4ab8c82c5b1a2806758e094ec62225b2c936c4731284078"
+    },
+    {
+      "path": "backend/settings.py",
+      "git_blob": "532626ca4f9292c7f799647d26eb25bf750280f7",
+      "git_mode": "100644",
+      "sha256": "9f9f89ab0d61a45d2f1f7400567d2d89841be2141745853bcd4830b7366fcb31"
+    },
+    {
+      "path": "common/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "git_mode": "100644",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "common/answer.py",
+      "git_blob": "a851be622fcdb3ee25b92601031ab912bf6cc733",
+      "git_mode": "100644",
+      "sha256": "25b4761f6f4c9fba03e65fef4501a33581ffe4e63df8a97e7f26867914da4dc3"
+    },
+    {
+      "path": "common/config.py",
+      "git_blob": "301cbb556e9baacfac9524efce10e2a654e0f47e",
+      "git_mode": "100644",
+      "sha256": "833389aeabc953d5858d0ab2cbc601949b64a6f044a0f91181391b170564b134"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "44b87de2ec2ac941e2cde7d2355aad0760f245e7",
+      "git_mode": "100644",
+      "sha256": "e30fb1963483307201173ccbcb960fd89ba9b9fccb70cae18829859eef582239"
+    },
+    {
+      "path": "web/index.html",
+      "git_blob": "a213f8c49012accefcdc8bc19d6ff4eb39b14522",
+      "git_mode": "100644",
+      "sha256": "c3c148464822d27d828c24295d03be969a02cbc99708f4360bd36a60ca58fafe"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".env.example",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": ".gitignore",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/ATLAS-6_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/NOVA-3_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/TERRA-9_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/Tamarind-and-Clove-Bank-Statement-FY2025-26.xlsx",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/VEGA-7_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/VOLTA-4_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/ZENITH-11_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/bring-your-own.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/excel-analyst.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/excel-architecture.drawio",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/excel-architecture.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "docs/excel-architecture.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/__init__.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/figures.json",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/ATLAS-6/p10/fig02.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/ATLAS-6/p8/fig01.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/NOVA-3/p10/fig02.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/NOVA-3/p8/fig01.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/TERRA-9/p10/fig02.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/TERRA-9/p8/fig01.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/VEGA-7/p11/fig02.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/VEGA-7/p9/fig01.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/VOLTA-4/p10/fig02.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/VOLTA-4/p8/fig01.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/ZENITH-11/p10/fig02.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/cache/images/ZENITH-11/p8/fig01.png",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/check_figures.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "enrich/figures.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/__init__.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/benchmark.jsonl",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/corpus_catalogue.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/excel_suite.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/heldout.jsonl",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/results/excel_suite_20261013-180006.json",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/results/excel_suite_20261013-180006.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/results/excel_suite_20261016-052213.json",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/results/excel_suite_20261016-052213.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/results/track1_baseline.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/results/track2_stageA.md",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/run_all.sh",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/run_benchmark.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "eval/validate_benchmark.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "infra/config.sh",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "infra/deploy.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "infra/deploy.sh",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "infra/smoke.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "infra/sync_env.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "infra/teardown.sh",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "ingest/check_metadata.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "ingest/check_tables.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "ingest/di_ingest.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "ingest/sp_sync.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "kb/__init__.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "kb/setup_kb.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "rebuild.sh",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/__init__.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/fixtures/VEGA-7_RevD_Technical_Dossier.pdf",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_backend.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_benchmark.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_config.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_excel_suite.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_infra.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_ingest.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/test_ui.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/ui_excel_smoke.py",
+      "reason": "not regular allowlisted runtime source"
+    },
+    {
+      "path": "tests/ui_smoke.py",
+      "reason": "not regular allowlisted runtime source"
+    }
+  ],
+  "source_patches": [],
+  "instrumentation": {
+    "kind": "external opt-in hooks; no copied-source edits",
+    "module": "evaluation.baseline_observability",
+    "sha256": "d9cc9b663f4e76ea716b8fb2dbe0f7bc1720ddd1b879146bdb5f023a5595f6ad"
+  },
+  "configuration": "not copied; approved environment and deployment preflight required",
+  "implementation_sha256": "5d6ec6d4eced71a6d424e14d344fdbd21238422f0d0446f2f0274e6b5512a5f5"
+}
